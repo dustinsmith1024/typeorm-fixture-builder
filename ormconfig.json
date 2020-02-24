@@ -1,7 +1,18 @@
-{
-  "type": "sqlite",
-  "database": "./test.db",
-  "entities": ["src/__tests__/entities/*.ts"],
-  "dropSchema": true,
-  "synchronize": true
-}
+[
+  {
+    "name": "default",
+    "type": "sqlite",
+    "database": "./test.db",
+    "entities": ["src/__tests__/entities/*.ts"],
+    "dropSchema": true,
+    "synchronize": true
+  },
+  {
+    "name": "default",
+    "type": "sqlite",
+    "database": "./test.db",
+    "entities": ["src/__tests__/entities/*.ts"],
+    "dropSchema": true,
+    "synchronize": true
+  }
+]
